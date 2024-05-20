@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    border: 2px solid black;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+h1{
+    color: red;
+    font-family:fantasy;
+    letter-spacing: 5px;
+}
+#counter{
+    font-size: 60px;
+}
+
+button {
+    border-radius: 10px;
+    width: 100px;
+    font-weight: 800;
+}
+
+
+.button{
+    /* border: 1px solid black; */
+    width: 350px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.increase-button {
+    background-color: green;
+}
+.decrease-button{
+    background-color: red;
+}
